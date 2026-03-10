@@ -16,12 +16,12 @@ def hola_mundo():
 
 def turno1():
     finaliza = False
-    dados_guardados = []
+    
     dados_tirada = []
     nro_tirada = 0
     dados_a_tirar = 5
     while finaliza == False and nro_tirada < 3:
-        
+        dados_guardados = []
         nro_dado = 0
         for nro_dado in range(dados_a_tirar):  
             valor = dado()
