@@ -1,4 +1,3 @@
-# Tu implementacion va aqui
 import random
 def upper_custom(texto):
     resultado = ""
